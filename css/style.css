@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Karla,sans-serif;
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+  height: 100vh;
+  margin: 0 auto;
+  width: 50rem;
+  justify-content: center;
+}
+
+
+/* typography */
+
+html {
+  font-size: 10px;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+p {
+  font-family: Karla;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-top: .5rem;
+}
+
+h1 {
+  font-family: Fugaz One,cursive;
+  font-size: 2.5rem;
+  padding-bottom: 1rem ;
+}
+
+h1.intro{
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Inconsolata;
+  font-weight: strong;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* about page bio image */
+
+
+img.kayla-razavi {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* smartcookie case study images */
+
+img.smartcookie-mockup {
+  width: 100%;
+}
+
+img.smartcookie-graph, img.stem-persona, img.la-persona, img.sc-user-stories, img.sc-mindmap, img.sc-logo-sketch, img.sc-lowfidelity, img.sc-highfidelity {
+  width: inherit;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* featured project tiles */
+
+.featuredProjects {
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.project-cell {
+  margin: 0 auto;
+}
+
+/* section styling / structure */
+
+section {
+  margin: 1%;
+  width: 48;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-widthL 110 em) {
+
+}

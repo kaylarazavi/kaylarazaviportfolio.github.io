@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio | Kayla Razavi</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Kayla Razavi</title>
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/flex.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Inconsolata|Karla&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-  <section>
-    <nav>
-      <logoHome>
-        <a href="./index.html" class="logo"><img src="images/kr.png">
-        </logoHome>
-        <links>
-          <a href="./mywork.html">my work</a>
-          <a href="./about.html">about</a>
-          <a href="./resume.html">resume</a>
-          <a href="./contact.html">contact</a>
-        </links>
-      </nav>
+  <div class="container">
+
+    <!-- nav -->
+    <ul class="nav-container">
+      <li class="logo"<a href="./index.html" class="logo"><img src="images/kr-logo.png"></li>
+        <li><a href="#featured">my work</a></li>
+        <li><a href="./about.html">about</a></li>
+      </ul>
+
+      <!-- hero -->
+
+    <section class="hero">
+        <h1>Hi! I’m Kayla Razavi - an empathy-driven Product Manager + Designer based in San Francisco, California. <br><br> <p style="font-size:4rem;">👩‍🎨 ☕️ 👩‍💻 🧐 💡 👋</p></h1>
     </section>
 
-    <section>
-      <hero>
-        <h1>Hi! I’m Kayla Razavi - an empathy-driven Product Manager + Designer based in San Francisco, California. <br> 👩‍🎨 ☕️ 👩‍💻 🧐 💡 👋</h1>
-      </hero>
-    </section>
+    <!-- featured projects -->
 
-    <section>
-      <featuredProjectsCopy>
-        <h3>featured projects</h3>
-      </featuredProjectsCopy>
+    <section class="featured projects">
+      <h2 style="text-decoration: underline;", h2 id=#featured>featured projects</h2>
+
+
+        <br> <br>
 
       <featuredProject>
         <a href="project.html" class="project-cell">
           <img class="project-tile" src="images/smartcookie-tile.svg" alt=""/>
-          <span class="tile-overlay"><span class="Smartcookie"></span></span>
         </a>
       </featuredProject>
 
       <featuredProject>
         <a href="busybus.html" class="project-cell">
           <img class="project-tile" src="images/busybus-tile.svg" alt=""/>
-          <span class="tile-overlay"><span class="BusyBus"></span></span>
         </a>
       </featuredProject>
+
     </section>
 
-  </body>
+    <!-- social / footer links -->
 
-  <footer>
-    <ul>
+    <ul class="footerLinks">
       <li>
         <a href="https://www.linkedin.com/in/kayla-razavi-7a5085b4/">linkedin</a>
       </li>
@@ -63,7 +69,11 @@
       </li>
     </ul>
 
+  </div>
+  </body>
+
+  <footer>
     <h6>ALL WORK © KAYLA RAZAVI 2019<h6>
-    </footer>
+  </footer>
 
     </html>

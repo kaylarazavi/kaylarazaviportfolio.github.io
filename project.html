@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Kayla Razavi</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/flex.css">
+
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Inconsolata|Karla&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+  <div class="container">
 
   <!-- navigation -->
-  <section>
-    <nav>
-      <logoHome>
-        <a href="./index.html" class="logo"><img src="images/kr.png">
-        </logoHome>
-        <links>
-          <a href="./mywork.html">my work</a>
-          <a href="./about.html">about</a>
-          <a href="./resume.html">resume</a>
-          <a href="./contact.html">contact</a>
-        </links>
-      </nav>
-    </section>
+  <ul class="nav-container">
+    <li class="logo" <a href="./index.html" class="logo"></a> <img src="images/kr-logo.png"></li>
+    <li><a href="index.html#featured">my work</a></li>
+      <li><a href="./about.html">about</a></li>
+    </ul>
 
     <!-- case study intro -->
-    <section>
-      <intro>
+  <section class="intro">
         <h1>Smartcookie</h1>
         <h3>a student's best friend</h3>
 
-        <project-mockup>
           <img class="smartcookie-mockup" src="images/smartcookie-mockup.svg" alt=""/>
-        </project-mockup>
 
         <br>
 
-        <prototype-link>
           <a href="https://projects.invisionapp.com/d/main#/console/16252224/336979151/preview">View Prototype</a>
-          </prototype-link>
-        </intro>
 
         <hr>
       </section>
 
       <!-- project overview -->
-      <section>
-        <overview>
           <h3>SUMMARY</h3>
           <p>Smartcookie is a students best friend – the one-stop-hub for ideating and organizing notes, readings, code, collaborating with classmates, and more.</p>
 
@@ -55,53 +50,40 @@
 
           <h3>DELIVERABLES</h3>
           <p>User Surveys | Personas | User Stories & Flows | Competitive Analysis | Wireframes | Branding Strategy | User Testing | Visual Design</p>
-        </overview>
 
         <hr>
-      </section>
 
       <!-- problem and solution -->
-      <section>
-        <problem-statement>
           <h3>PROBLEM</h3>
           <p>While there is no shortage of existing cloud-storage solutions to choose from that allow users to complete basic needs – creating, saving, organizing, and sharing content – there is a shortage of cloud-storage solutions that cater specifically to the rapidly advancing needs of students today.</p>
 
           <h3>SOLUTION</h3>
           <p>Meet Smartcookie. The note-taking platform designed with students in mind. Whether you’re studying STEM, Liberal Arts, or anything in-between – Smartcookie’s got you covered.</p>
-        </problem-statement>
 
         <hr>
-      </section>
 
       <!-- research and development -->
-      <section>
-        <r-and-d>
           <h2>research + development</h2>
 
           <h3>USER RESEARCH</h3>
           <p>My goal in the R&D phase was to validate the concept of a cloud storage platform for students. <p> I wanted to understand who our user is, what their pain points are, and how we can create a dynamic solution that not only alleviates their pain points but helps them achieve their goals. <p> From our research pool of 19 respondents, we learned that 100% of participants had utilized cloud storage services during their time as a student.</p>
 
-          <sc-graph>
             <img class="smartcookie-graph" src="images/sc-graph.svg" alt=""/>
-          </sc-graph>
 
-          <p>Top use case's</p>
+        <h3>Top use cases:</h3>
 
-          <ol>
-            <li>Taking notes</li>
-            <li>Collaborating and sharing content with peers</li>
-            <li>Uploading and storing content</li>
-          </ol>
+          <p>Taking notes / Collaborating and sharing content with peers / Uploading and storing content<p>
 
           <p>Dream features that would make their lives as students easier</p>
 
-          <ol>
+          <ol class="dream-features">
             <li>Ability to code in-browser</li>
             <li>Ability to “pair program”</li>
             <li>Easy ways to upload and interact with content (readings, assignments)</li>
           </ol>
 
-          <h3>COMPETITIVE ANALYSIS</h3>
+          <h3>COMPETITIVE ANALYSIS </h3>
+
           <p>To see where Smartcookie would position itself in such a competitive market, I went through the onboarding and content creation, organizing, and organizing user flows for Google Drive, Dropbox, and Evernote.</p>
           <p>How could we leverage patterns that users were familiar with to build a platform that is unique but also intuitive?</p>
           <p>While each of these platforms had strong features and allowed users to perform key tasks like taking notes and collaborating with others, none of these solutions allowed our users to complete those tasks all in one place and catered to a broad audience.</p>
@@ -111,57 +93,36 @@
           <h3>PERSONAS</h3>
           <p>Initial research revealed students as our target audience with two distinct personas with different problems falling under that identity. Students in STEM (science, technology, engineering, mathematics) and Liberal Arts.</p>
 
-          <personas>
             <img class="stem-persona" src="images/stem-persona.svg" alt=""/>
             <img class="la-persona" src="images/la-persona.svg" alt=""/>
-          </personas>
 
           <h3>USER STORIES</h3>
           <p>We leveraged research to validate which of the desired features were necessary for our demographic. This helped identify what features were &ldquo;need to have&rdquo; versus &ldquo;nice to have&rdquo; in order for us to create the MVP while addressing our users most pressing needs.</p>
 
-          <user-stories>
             <img class="sc-user-stories" src="images/sc-user-stories.svg" alt=""/>
-          </user-stories>
-
-        </r-and-d>
 
         <hr>
-      </section>
 
       <!-- visual design -->
-      <section>
-        <visual-design>
           <h2>visual design</h2>
 
           <h3>BRANDING</h3>
           <p>With an understanding of our user and their needs, I had the data I needed to begin the branding process. </p>
           <p>I started with a mind map - who does smartcookie serve? How can we bring out the best in our users to encourage them to use our platform over others?</p>
 
-          <mind-map>
             <img class="sc-mindmap" src="images/sc-mindmap.svg" alt=""/>
-          </mind-map>
 
           <p>Deep in student-empathy mode, I was reminded of the uncomfortable and intimidating experience of opening up a blank document agonizing over a paper you have to write or problem set that needs to be submit in a couple hours.</p>
 
-          <logo-sketch>
             <img class="sc-logo-sketch" src="images/sc-logo-sketch.svg" alt=""/>
-          </logo-sketch>
 
           <p>Smartcookie would be approachable, it would be friendly, it would validate your learning experience. We want students to feel comfortable and even excited to be using smartcookie - which is the intent behind each and every detail behind the brand. The style guide for smartcookie can be viewed <strong>here.</strong></p>
-        </visual-design>
-
         <hr>
-      </section>
 
       <!-- prototyping, testing, + validation-->
-      <section>
-        <protyping-testing-validation>
           <h2>prototyping, testing, + validation</h2>
 
-          <low-fidelity-mockup>
-            <img class="sc-lowfidelity" src="images/sc-lowfid.svg" alt=""/>
-          </low-fidelity-mockup>
-
+           <img class="sc-lowfidelity" src="images/sc-lowfid.svg" alt=""/>
           <p>I used MarvelApp to create low-fidelity mockups which I then transferred over to InVision to begin my first round of user testing. The low-fidelity prototype can be viewed <strong>here.</strong> </p>
           <p>The goal of the initial round was to learn what was intuitive and what was not among my user group. As a result, I decided to cut the &ldquo;labeling&rdquo; feature. While all users agreed that it has a lot of potential, they also agreed it was complicated and perhaps best saved for after the MVP is done. They also expressed that the dashboard was overwhelming. </p>
           <p>The theme through all three usability tests was &ldquo;don&rsquo;t make me think&rdquo; - which served as my guiding principal through the next iteration. </p>
@@ -169,20 +130,14 @@
           <p>In second round of usability testing, the process went rather seamlessly. All users were able to easily complete their tasks and noted that the interface was sleek, easy to use, and a platform they would recommend to a friend.</p>
 
 
-          <high-fidelity-mockup>
             <img class="sc-highfidelity" src="images/sc-hifid.svg" alt=""/>
-          </high-fidelity-mockup>
 
           <p>The final high-fidelity prototype can be viewed <strong>here</strong>.</p>
 
-        </protyping-testing-validation>
 
         <hr>
-      </section>
 
       <!-- conclusion-->
-      <section>
-        <conclusion>
 
           <h2>conclusion</h2>
           <h3>WHAT WORKED WELL?</h3>
@@ -192,43 +147,42 @@
           <p>The labels feature was a bit too complex for an MVP and would require many iterations and time for research and testing beyond what time allowed. </p>
 
           <h3>LESSONS LEARNED</h3>
-
-          <ol>
-            <li>Invest more time user testing, less time agonizing over perfectionism.</li>
-            <li>Loving an idea without testing it can be dangerous. When you have a vision for something, it’s easy to get so wrapped up in the idea that you just assume others will find it as intuitive as you do – but that’s usually not the case. Testing mitigates this risk of building a product you think is helping a user, but in reality only ostracizes them.</li>
-            <li>Looking to the future, I will begin my user testing earlier than at the low-fidelity mockups. Rapid prototyping can take place with paper and pen sketches and a stranger at a coffee shop.</li>
-          </ol>
-
-        </conclusion>
+          <p>Invest more time user testing, less time agonizing over perfectionism.<p>
+          <p>Loving an idea without testing it can be dangerous. When you have a vision for something, it’s easy to get so wrapped up in the idea that you just assume others will find it as intuitive as you do – but that’s usually not the case. Testing mitigates this risk of building a product you think is helping a user, but in reality only ostracizes them.<p>
+          <p>Looking to the future, I will begin my user testing earlier than at the low-fidelity mockups. Rapid prototyping can take place with paper and pen sketches and a stranger at a coffee shop.<p>
 
         <hr>
-      </section>
+
+        <!-- case study footer-->
+
+        <section class="case-study-links">
+          <a href="#top">back to top</a>
+          <br> <br>
+          <a href="./busy-bus.html">next project</a>
+        </section>
+
+        <ul class="footerLinks">
+          <li>
+            <a href="https://www.linkedin.com/in/kayla-razavi-7a5085b4/">linkedin</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/kaylarazavi">github</a>
+          </li>
+
+          <li>
+            <a href="mailto:kayla.razavi@gmail.com">email</a>
+          </li>
+        </ul>
+
+    </div>
+
     </body>
 
     <footer>
-
-      <!-- case study footer-->
-      <case-study-footer>
-        <a href="#top" >back to top</a>
-        <a href="./busy-bus.html" >next project</a>
-      </case-study-footer>
-
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/kayla-razavi-7a5085b4/">linkedin</a>
-        </li>
-
-        <li>
-          <a href="https://github.com/kaylarazavi">github</a>
-        </li>
-
-        <li>
-          <a href="mailto:kayla.razavi@gmail.com">email</a>
-        </li>
-      </ul>
 
       <h6>ALL WORK © KAYLA RAZAVI 2019<h6>
 
       </footer>
 
-      </html>
+</html>
