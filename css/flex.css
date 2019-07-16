@@ -46,6 +46,8 @@ li {
     flex-direction: column;
     justify-content: center;
     height: 30 rem;
+    overflow: wrap;
+    margin: 0 auto;
   }
 
 }
