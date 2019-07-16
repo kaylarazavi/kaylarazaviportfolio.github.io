@@ -13,11 +13,14 @@ ul {
   font-size: 1.5rem;
 }
 
-ul.footerLinks {
-  background-color: orange;
+a {
+  margin: 0 auto;
+}
+
+.footerLinks {
+  padding-top: 2em;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 li {
@@ -34,14 +37,6 @@ li {
   align-items: center;
   justify-content: flex-start;
 }
-
-
-footer {
-  justify-content: center;
-  text-align: center;
-}
-
-
 
 
 
