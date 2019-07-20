@@ -41,7 +41,7 @@ li {
 
 
 
-@media (max-width: 50 rem) {
+/*@media (max-width: 50 rem) {
   .flex-container {
     display: flex;
     flex-direction: column;
